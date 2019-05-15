@@ -1,0 +1,53 @@
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+#what .items .item {
+  display: flex;
+  text-align: left;
+
+}
+
+#what .items .item i {
+  
+  align-self: center;
+  margin-bottom: 0;
+}
+
+#what .container .items h3 {
+  padding-top: 0.75rem;
+}
+
+#what .container .items p {
+  text-align: center;
+}
+
+#what .container h2 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 501px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #who {
+    flex-direction: column;
+  }
+
+  #who .who-img {
+    height: 100px;
+    padding: 30%
+  }
+
+  #contacts {
+    flex-direction: column;
+  }
+
+  #contacts .map{
+    height: 200px;
+    padding: 50%;
+  }
+}
